@@ -1,0 +1,10 @@
+.navbar>p{
+    font-weight: 600;
+    color: gray;
+    cursor: pointer;
+    font-size: larger;
+}
+.navbar>p:hover{
+    color: white;
+
+}
