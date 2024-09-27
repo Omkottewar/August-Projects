@@ -1,13 +1,13 @@
 import React from 'react'
 
-import bootstrap from '../assets/bootstrap.png'
-import css from '../assets/css.png';
-import html from '../assets/html.png'
-import javascript from '../assets/javascript.png'
-import reactImg from '../assets/react.png'
-import tailwind from '../assets/tailwind.png'
-import github from '../assets/github.png'
-import rest from '../assets/rest.png'
+import bootstrap from '../../assets/bootstrap.png'
+import css from '../../assets/css.png';
+import html from '../../assets/html.png'
+import javascript from '../../assets/javascript.png'
+import reactImg from '../../assets/react.png'
+import tailwind from '../../assets/tailwind.png'
+import github from '../../assets/github.png'
+import rest from '../../assets/rest.png'
 
 
 const Techstack = () => {

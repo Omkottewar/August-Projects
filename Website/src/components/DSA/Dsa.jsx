@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { fetchDSAQuestion } from '../Api/Api'
+import { fetchDSAQuestion } from '../../Api/Api'
 import Accordion from './Accordion';
 
 const Dsa = () => {

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
-import { fetchQuestion } from '../Api/Api';
-import uparrow from '../assets/uparrow.png'
-import downarrow from '../assets/downArrow.png'
+import { fetchQuestion } from '../../Api/Api';
+import uparrow from '../../assets/uparrow.png'
+import downarrow from '../../assets/downArrow.png'
 import QuestionAccordion from './QuestionAccordion';
 
 const Accordion = ({topic,subQuestion}) => {

@@ -1,6 +1,6 @@
 import { CheckBox } from '@mui/icons-material';
 import React, { useEffect, useState } from 'react'
-import article from '../assets/article.svg'
+import article from '../../assets/article.svg'
 import { Link } from 'react-router-dom';
 
 

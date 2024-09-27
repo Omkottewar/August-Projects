@@ -1,12 +1,13 @@
 import { useState } from 'react'
 import './index.css'
-import Profile from './Profile/Profile'
+import Profile from './components/Profile/Profile'
 import { BrowserRouter, Routes,Route } from 'react-router-dom'
-import Navbar from './Navbar/Navbar'
-import Blog from './Blog/Blog'
-import Projects from './Projects/Projects'
-import Dsa from './DSA/Dsa'
-import Home from './Home/Home'
+import Navbar from './components/Navbar/Navbar'
+import Blog from './components/Blog/Blog'
+import Projects from './components/ProjectsPersonal/Projects'
+import Dsa from './components/DSA/Dsa'
+import Home from './components/Home/Home'
+import Weather from './components/ProjectsPersonal/WeatherApp/Weather'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -20,6 +21,7 @@ function App() {
       <Route path='/profile' element={<Profile/>} ></Route>
       <Route path='/blog' element={<Blog/>} ></Route>
       <Route path='/projects' element={<Projects/>} ></Route>
+      <Route path='/projects/weather' element={<Weather/>} ></Route>
       <Route path='/dsa' element={<Dsa/>} ></Route>
       <Route path='/' element={<Home/>} ></Route>
     </Routes>
