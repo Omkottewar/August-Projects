@@ -51,9 +51,9 @@ const Leetcode = () => {
     />
   </div >
   <div className="flex flex-col gap-10 max-lg:flex-col ">
-      <ProgressButton  className=' px-2 py-1 bg-[#212121]  border border-gray-500 w-32 flex items-center justify-between' > <span className='text-green-600 font-bold text-sm '>Easy</span> <span className='text-sm' >{easyData}</span> </ProgressButton>
-      <ProgressButton  className=' px-2 py-1 bg-[#212121]  border border-gray-500 w-32 flex items-center justify-between' > <span className='text-orange-600 font-bold text-sm '>Medium  </span> <span className='text-sm' >{mediumData}</span> </ProgressButton>
-      <ProgressButton  className=' px-2 py-1 bg-[#212121]  border border-gray-500 w-32 flex items-center justify-between' > <span className='text-red-600 font-bold text-sm'>Hard</span> <span className='text-sm' >{hardData}</span> </ProgressButton>
+      <ProgressButton  className=' px-2 py-1   border border-gray-500 w-32 flex items-center justify-between' > <span className='text-green-600 font-bold text-sm '>Easy</span> <span className='text-sm' >{easyData}</span> </ProgressButton>
+      <ProgressButton  className=' px-2 py-1   border border-gray-500 w-32 flex items-center justify-between' > <span className='text-orange-600 font-bold text-sm '>Medium  </span> <span className='text-sm' >{mediumData}</span> </ProgressButton>
+      <ProgressButton  className=' px-2 py-1   border border-gray-500 w-32 flex items-center justify-between' > <span className='text-red-600 font-bold text-sm'>Hard</span> <span className='text-sm' >{hardData}</span> </ProgressButton>
      </div>
      </div>
         

@@ -8,14 +8,15 @@ import Projects from './components/ProjectsPersonal/Projects'
 import Dsa from './components/DSA/Dsa'
 import Home from './components/Home/Home'
 import Weather from './components/ProjectsPersonal/WeatherApp/Weather'
+import ColorContext from './Context/ColorContext'
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [color, setColor] = useState(false)
 
   return (
-  <div className="flex">
-    
+  <div className={`flex ${color?"bg-[#191919] text-white":"bg-white"} h-full`} >
     <BrowserRouter>
+    <ColorContext.Provider value={{color,setColor}}>
     <Navbar/>
     <Routes>
       <Route path='/profile' element={<Profile/>} ></Route>
@@ -25,6 +26,7 @@ function App() {
       <Route path='/dsa' element={<Dsa/>} ></Route>
       <Route path='/' element={<Home/>} ></Route>
     </Routes>
+    </ColorContext.Provider>
     </BrowserRouter>
    
   </div>

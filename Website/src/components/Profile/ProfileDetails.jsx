@@ -9,7 +9,7 @@ import { Link } from 'react-router-dom';
 
 const ProfileDetails = () => {
   return (
-    <div className="w-full max-xl:w-[screen] border border-gray-500 bg-[#191919] h-[45.9rem] text-white p-2 rounded-md">
+    <div className="w-full max-xl:w-[screen] border border-gray-500  h-[45.9rem]  p-2 rounded-md">
       <div className=""><img className='w-40 m-auto mt-10 rounded-full border-2 border-gray-500'  src={profilePic} alt="" /></div>
       <div className=" items-center flex flex-col mt-8">
         <p className='font-semibold text-2xl mb-4'>Om Kottewar</p>

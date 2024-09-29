@@ -1,8 +1,18 @@
-import React from 'react'
+import React, { useContext } from 'react'
+import ColorContext from '../../Context/ColorContext'
+import ColorButton from '../../ColorButton'
 
 const Home = () => {
+
+  const {color,setColor} = useContext(ColorContext)
+
+
   return (
-    <div>Home</div>
+    <div>
+      <div className="">
+      <ColorButton/>
+      </div>
+    </div>
   )
 }
 
